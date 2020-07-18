@@ -1,19 +1,19 @@
 //
-//  ContentView.swift
+//  MemorizeGameView.swift
 //  Memorize
 //
 //  Created by Yasin Şükrü Tan on 15.07.2020.
 //  Copyright © 2020 Yasin Şükrü Tan. All rights reserved.
 //
-// View
+//  View
 
 import SwiftUI
 
 struct MemorizeGameView: View {
-    var viewModel: EmojiMemoryGame
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-    //    VStack {
+        //VStack {
       //      ForEach(0..<4) { index in
                 HStack {
                     ForEach(viewModel.cards) { card in
@@ -25,8 +25,8 @@ struct MemorizeGameView: View {
           //  }
         //}
             .foregroundColor(Color.orange)
-            .padding()
-            .font(Font.largeTitle)
+            .padding(10)
+            
     }
 }
 
@@ -34,15 +34,32 @@ struct CardView: View {
     var card: MemoryGame<String>.Card
     
     var body: some View {
+        GeometryReader(content: { geometry in
+            self.body(for: geometry.size)
+        })
+    }
+    
+    // Get rid of self
+    
+    func body(for size: CGSize) -> some View {
         ZStack {
             if card.isFaceUp {
-                RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
-                RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3)
+                RoundedRectangle(cornerRadius: cornerRadious).fill(Color.white)
+                RoundedRectangle(cornerRadius: cornerRadious).stroke(lineWidth: edgeLineWidth)
                 Text(card.Content)
             } else {
-                RoundedRectangle(cornerRadius: 10.0).fill()
+                RoundedRectangle(cornerRadius: cornerRadious).fill()
             }
         }
+        .font(Font.system(size: fontSize(for: size)))
+    }
+    
+    // MARK: - Drawing Constants
+    
+    let cornerRadious: CGFloat = 10.0
+    let edgeLineWidth: CGFloat = 3
+    func fontSize(for size:CGSize) -> CGFloat {
+        min(size.width, size.height) * 0.75
     }
 }
 

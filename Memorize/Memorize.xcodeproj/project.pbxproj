@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FAA613F624BF002D00F17223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA613F524BF002D00F17223 /* AppDelegate.swift */; };
 		FAA613F824BF002D00F17223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA613F724BF002D00F17223 /* SceneDelegate.swift */; };
-		FAA613FA24BF002D00F17223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA613F924BF002D00F17223 /* ContentView.swift */; };
+		FAA613FA24BF002D00F17223 /* MemorizeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA613F924BF002D00F17223 /* MemorizeGameView.swift */; };
 		FAA613FC24BF003000F17223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA613FB24BF003000F17223 /* Assets.xcassets */; };
 		FAA613FF24BF003000F17223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA613FE24BF003000F17223 /* Preview Assets.xcassets */; };
 		FAA6140224BF003000F17223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA6140024BF003000F17223 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		FAA613F224BF002D00F17223 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA613F524BF002D00F17223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA613F724BF002D00F17223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA613F924BF002D00F17223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA613F924BF002D00F17223 /* MemorizeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameView.swift; sourceTree = "<group>"; };
 		FAA613FB24BF003000F17223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA613FE24BF003000F17223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA6140124BF003000F17223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 				FAA6140B24BF167200F17223 /* EmojiMemoryGame.swift */,
 				FAA613F524BF002D00F17223 /* AppDelegate.swift */,
 				FAA613F724BF002D00F17223 /* SceneDelegate.swift */,
-				FAA613F924BF002D00F17223 /* ContentView.swift */,
+				FAA613F924BF002D00F17223 /* MemorizeGameView.swift */,
 				FAA613FB24BF003000F17223 /* Assets.xcassets */,
 				FAA6140024BF003000F17223 /* LaunchScreen.storyboard */,
 				FAA6140324BF003000F17223 /* Info.plist */,
@@ -155,7 +155,7 @@
 				FAA613F624BF002D00F17223 /* AppDelegate.swift in Sources */,
 				FAA6140A24BF14D000F17223 /* MermoryGame.swift in Sources */,
 				FAA613F824BF002D00F17223 /* SceneDelegate.swift in Sources */,
-				FAA613FA24BF002D00F17223 /* ContentView.swift in Sources */,
+				FAA613FA24BF002D00F17223 /* MemorizeGameView.swift in Sources */,
 				FAA6140C24BF167200F17223 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
