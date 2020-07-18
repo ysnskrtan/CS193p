@@ -13,21 +13,17 @@ struct MemorizeGameView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-        //VStack {
-      //      ForEach(0..<4) { index in
-                HStack {
-                    ForEach(viewModel.cards) { card in
-                        CardView(card: card).onTapGesture {
-                            self.viewModel.choose(card: card)
-                        }
-                    }
-                }
-          //  }
-        //}
+        Grid(viewModel.cards) { card in
+            CardView(card: card).onTapGesture {
+                self.viewModel.choose(card: card)
+            }
+        .padding(5)
+        }
             .foregroundColor(Color.orange)
-            .padding(10)
+            .padding()
             
     }
+    
 }
 
 struct CardView: View {
