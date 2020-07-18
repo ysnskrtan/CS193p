@@ -42,9 +42,11 @@ struct CardView: View {
             if card.isFaceUp {
                 RoundedRectangle(cornerRadius: cornerRadious).fill(Color.white)
                 RoundedRectangle(cornerRadius: cornerRadious).stroke(lineWidth: edgeLineWidth)
-                Text(card.Content)
+                Text(card.content)
             } else {
-                RoundedRectangle(cornerRadius: cornerRadious).fill()
+                if !card.isMatched {
+                    RoundedRectangle(cornerRadius: cornerRadious).fill()
+                }
             }
         }
         .font(Font.system(size: fontSize(for: size)))

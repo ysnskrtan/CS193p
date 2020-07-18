@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA42245A24C3A55B004192A7 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42245924C3A55B004192A7 /* Array+Only.swift */; };
 		FA8B021B24C34683001393A7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B021A24C34683001393A7 /* Grid.swift */; };
 		FA8B021D24C34B68001393A7 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B021C24C34B68001393A7 /* GridLayout.swift */; };
 		FA8B021F24C35368001393A7 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B021E24C35368001393A7 /* Array+Identifiable.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA42245924C3A55B004192A7 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		FA8B021A24C34683001393A7 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		FA8B021C24C34B68001393A7 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		FA8B021E24C35368001393A7 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA6140924BF14D000F17223 /* MermoryGame.swift */,
+				FA42245924C3A55B004192A7 /* Array+Only.swift */,
 				FAA6140B24BF167200F17223 /* EmojiMemoryGame.swift */,
 				FAA613F524BF002D00F17223 /* AppDelegate.swift */,
 				FAA613F724BF002D00F17223 /* SceneDelegate.swift */,
@@ -164,6 +167,7 @@
 				FAA613F624BF002D00F17223 /* AppDelegate.swift in Sources */,
 				FAA6140A24BF14D000F17223 /* MermoryGame.swift in Sources */,
 				FAA613F824BF002D00F17223 /* SceneDelegate.swift in Sources */,
+				FA42245A24C3A55B004192A7 /* Array+Only.swift in Sources */,
 				FAA613FA24BF002D00F17223 /* MemorizeGameView.swift in Sources */,
 				FAA6140C24BF167200F17223 /* EmojiMemoryGame.swift in Sources */,
 				FA8B021F24C35368001393A7 /* Array+Identifiable.swift in Sources */,
