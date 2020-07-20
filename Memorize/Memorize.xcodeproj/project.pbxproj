@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA416C4C24C58BCA009536B0 /* MermoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6140924BF14D000F17223 /* MermoryGame.swift */; };
+		FA416C4E24C5986E009536B0 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA416C4D24C5986E009536B0 /* Pie.swift */; };
 		FA42245A24C3A55B004192A7 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42245924C3A55B004192A7 /* Array+Only.swift */; };
 		FA8B021B24C34683001393A7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B021A24C34683001393A7 /* Grid.swift */; };
 		FA8B021D24C34B68001393A7 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B021C24C34B68001393A7 /* GridLayout.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA416C4D24C5986E009536B0 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		FA42245924C3A55B004192A7 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		FA8B021A24C34683001393A7 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		FA8B021C24C34B68001393A7 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				FAA6140324BF003000F17223 /* Info.plist */,
 				FAA6140024BF003000F17223 /* LaunchScreen.storyboard */,
 				FAA613F924BF002D00F17223 /* MemorizeGameView.swift */,
+				FA416C4D24C5986E009536B0 /* Pie.swift */,
 				FAA6140924BF14D000F17223 /* MermoryGame.swift */,
 				FAA613F724BF002D00F17223 /* SceneDelegate.swift */,
 			);
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA416C4E24C5986E009536B0 /* Pie.swift in Sources */,
 				FAA613F624BF002D00F17223 /* AppDelegate.swift in Sources */,
 				FAA613F824BF002D00F17223 /* SceneDelegate.swift in Sources */,
 				FA42245A24C3A55B004192A7 /* Array+Only.swift in Sources */,
