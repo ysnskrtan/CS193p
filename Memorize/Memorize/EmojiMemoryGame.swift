@@ -35,4 +35,8 @@ class EmojiMemoryGame: ObservableObject {
         // when write @Published wrapper to model declaration its done
         model.choose(card: card)
     }
+    
+    func resetGame() {
+        model = EmojiMemoryGame.createMemoryGame()
+    }
 }
