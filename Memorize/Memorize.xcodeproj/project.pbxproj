@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA416C4C24C58BCA009536B0 /* MermoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6140924BF14D000F17223 /* MermoryGame.swift */; };
 		FA42245A24C3A55B004192A7 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42245924C3A55B004192A7 /* Array+Only.swift */; };
 		FA8B021B24C34683001393A7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B021A24C34683001393A7 /* Grid.swift */; };
 		FA8B021D24C34B68001393A7 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B021C24C34B68001393A7 /* GridLayout.swift */; };
@@ -17,7 +18,6 @@
 		FAA613FC24BF003000F17223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA613FB24BF003000F17223 /* Assets.xcassets */; };
 		FAA613FF24BF003000F17223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA613FE24BF003000F17223 /* Preview Assets.xcassets */; };
 		FAA6140224BF003000F17223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA6140024BF003000F17223 /* LaunchScreen.storyboard */; };
-		FAA6140A24BF14D000F17223 /* MermoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6140924BF14D000F17223 /* MermoryGame.swift */; };
 		FAA6140C24BF167200F17223 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6140B24BF167200F17223 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		FAA613FE24BF003000F17223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA6140124BF003000F17223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA6140324BF003000F17223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAA6140924BF14D000F17223 /* MermoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MermoryGame.swift; sourceTree = SOURCE_ROOT; };
+		FAA6140924BF14D000F17223 /* MermoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MermoryGame.swift; path = /Users/yasinsukrutan/Desktop/SwiftUI/CS193p/Memorize/Memorize/MermoryGame.swift; sourceTree = "<absolute>"; };
 		FAA6140B24BF167200F17223 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,10 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA613F624BF002D00F17223 /* AppDelegate.swift in Sources */,
-				FAA6140A24BF14D000F17223 /* MermoryGame.swift in Sources */,
 				FAA613F824BF002D00F17223 /* SceneDelegate.swift in Sources */,
 				FA42245A24C3A55B004192A7 /* Array+Only.swift in Sources */,
 				FAA613FA24BF002D00F17223 /* MemorizeGameView.swift in Sources */,
+				FA416C4C24C58BCA009536B0 /* MermoryGame.swift in Sources */,
 				FAA6140C24BF167200F17223 /* EmojiMemoryGame.swift in Sources */,
 				FA8B021F24C35368001393A7 /* Array+Identifiable.swift in Sources */,
 				FA8B021D24C34B68001393A7 /* GridLayout.swift in Sources */,
