@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct OptinalImage: View {
+struct OptionalImage: View {
     var uiImage: UIImage?
     
     var body: some View {
